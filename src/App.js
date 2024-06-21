@@ -19,12 +19,12 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element={<SkillsPage />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/Personal-Portfolio/" element={<Home />} />
+          <Route path="/Personal-Portfolio/about" element={<About />} />
+          <Route path="/Personal-Portfolio/projects" element={<Projects />} />
+          <Route path="/Personal-Portfolio/skills" element={<SkillsPage />} />
+          <Route path="/Personal-Portfolio/contact" element={<Contact />} />
+          <Route path="*" element={<Navigate to="/Personal-Portfolio/" />} />
         </Routes>
         <BackToTopButton />
       </div>
