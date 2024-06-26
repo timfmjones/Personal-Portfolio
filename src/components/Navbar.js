@@ -15,11 +15,11 @@ const Navbar = () => {
     <nav className="bg-[#2a2c31] text-white p-5 shadow-md"> 
       <ul className="flex justify-center space-x-10"> 
         <li><NavLink to="/Personal-Portfolio//" style={activeStyle}>Home</NavLink></li>
-        <li><NavLink to="/Personal-Portfolio//about" style={activeStyle}>About</NavLink></li>
-        <li><NavLink to="/Personal-Portfolio//projects" style={activeStyle}>Projects</NavLink></li>
-        <li><NavLink to="/Personal-Portfolio//skills" style={activeStyle}>Skills</NavLink></li>
-        <li><NavLink to="/Personal-Portfolio//games" style={activeStyle}>Games</NavLink></li>
-        <li><NavLink to="/Personal-Portfolio//contact" style={activeStyle}>Contact</NavLink></li>
+        <li><NavLink to="/Personal-Portfolio/about" style={activeStyle}>About</NavLink></li>
+        <li><NavLink to="/Personal-Portfolio/projects" style={activeStyle}>Projects</NavLink></li>
+        <li><NavLink to="/Personal-Portfolio/skills" style={activeStyle}>Skills</NavLink></li>
+        <li><NavLink to="/Personal-Portfolio/games" style={activeStyle}>Games</NavLink></li>
+        <li><NavLink to="/Personal-Portfolio/contact" style={activeStyle}>Contact</NavLink></li>
       </ul>
     </nav>
   );
