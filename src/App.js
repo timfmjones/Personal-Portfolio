@@ -30,7 +30,7 @@ function App() {
           <Route path="/Personal-Portfolio/games" element={<Games />} />
           <Route path="/Personal-Portfolio/snake-game" element={<SnakeGame />} />
           <Route path="/Personal-Portfolio/minesweeper-game" element={<Minesweeper rows={15} cols={12} mines={15} />} />
-          <Route path="/Personal-Portfolio*" element={<Navigate to="/Personal-Portfolio/" />} />
+          <Route path="*" element={<Navigate to="/Personal-Portfolio/" />} />
         </Routes>
         <BackToTopButton />
       </div>
