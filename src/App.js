@@ -6,6 +6,9 @@ import About from './components/About';
 import Projects from './components/Projects';
 import SkillsPage from './components/Skills';
 import Contact from './components/Contact';
+import Games from './components/Games';
+import SnakeGame from './components/SnakeGame';
+import Minesweeper from './components/Minesweeper';
 import BackToTopButton from './components/BackToTopButton';
 import { useEffect } from 'react';
 
@@ -24,7 +27,10 @@ function App() {
           <Route path="/Personal-Portfolio/projects" element={<Projects />} />
           <Route path="/Personal-Portfolio/skills" element={<SkillsPage />} />
           <Route path="/Personal-Portfolio/contact" element={<Contact />} />
-          <Route path="*" element={<Navigate to="/Personal-Portfolio/" />} />
+          <Route path="/Personal-Portfolio/games" element={<Games />} />
+          <Route path="/Personal-Portfolio/snake-game" element={<SnakeGame />} />
+          <Route path="/Personal-Portfolio/minesweeper-game" element={<Minesweeper rows={15} cols={12} mines={15} />} />
+          <Route path="/Personal-Portfolio*" element={<Navigate to="/Personal-Portfolio/" />} />
         </Routes>
         <BackToTopButton />
       </div>
