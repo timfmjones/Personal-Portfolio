@@ -63,7 +63,7 @@ const Home = () => {
             </a>
             </div>
             <div className="flex justify-center items-center space-x-4 mt-4" style={{ zIndex: 999 }}>
-              <a href="/Personal-Portfolio/contact" className="mt-8 inline-block bg-white text-[#141417] font-semibold py-3 px-6 rounded-full hover:bg-gray-100 transition-colors duration-300"  style={{ zIndex: 999 }}>
+              <a href="/contact" className="mt-8 inline-block bg-white text-[#141417] font-semibold py-3 px-6 rounded-full hover:bg-gray-100 transition-colors duration-300"  style={{ zIndex: 999 }}>
                 Contact me
               </a>
             </div>

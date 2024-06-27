@@ -8,6 +8,7 @@ import SkillsPage from './components/Skills';
 import Contact from './components/Contact';
 import Games from './components/Games';
 import SnakeGame from './components/SnakeGame';
+import Pacman from './components/Pacman';
 import Minesweeper from './components/Minesweeper';
 import BackToTopButton from './components/BackToTopButton';
 import { useEffect } from 'react';
@@ -22,15 +23,16 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/Personal-Portfolio/" element={<Home />} />
-          <Route path="/Personal-Portfolio/about" element={<About />} />
-          <Route path="/Personal-Portfolio/projects" element={<Projects />} />
-          <Route path="/Personal-Portfolio/skills" element={<SkillsPage />} />
-          <Route path="/Personal-Portfolio/contact" element={<Contact />} />
-          <Route path="/Personal-Portfolio/games" element={<Games />} />
-          <Route path="/Personal-Portfolio/snake-game" element={<SnakeGame />} />
-          <Route path="/Personal-Portfolio/minesweeper-game" element={<Minesweeper rows={15} cols={12} mines={15} />} />
-          <Route path="*" element={<Navigate to="/Personal-Portfolio/" />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/skills" element={<SkillsPage />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/games" element={<Games />} />
+          <Route path="/games/snake" element={<SnakeGame />} />
+          <Route path="/games/minesweeper" element={<Minesweeper rows={15} cols={12} mines={15} />} />
+          <Route path="/games/pacman" element={<Pacman />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <BackToTopButton />
       </div>
