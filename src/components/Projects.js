@@ -6,11 +6,19 @@ import PathFindingImg from './assets/pathFindingImg.webp';
 import FutblImg from './assets/futbl.webp';
 import SortingAlgoImg from './assets/sortingAlgoImg.webp';
 import PortfolioImg from './assets/portfolioImg.webp';
+import HockeySimualtionImg from './assets/hockeySimulationImg.webp';
 
 const projects = [
   {
+    title: 'NHL Hockey Simulator',
+    description: 'Simulator NHL games using an Event Simulation model',
+    imageUrl: HockeySimualtionImg,
+    // demoUrl: 'https://github.com/timfmjones/NHL-simulation-model',
+    codeUrl: 'https://github.com/timfmjones/NHL-simulation-model',
+  },
+  {
     title: 'Music Generator',
-    description: 'Generate piano msuic using a LSTM Neural Network.',
+    description: 'Generate piano music using a LSTM Neural Network.',
     imageUrl: NetworkMusicImg,
     demoUrl: 'https://github.com/timfmjones',
     codeUrl: 'https://github.com/timfmjones',
@@ -23,7 +31,14 @@ const projects = [
     codeUrl: 'https://github.com/timfmjones/Pathfinding-Algorithm-Visualizer',
   },
   {
-    title: 'Fubo',
+    title: 'Euro 2024 Player Pursuit',
+    description: 'Soccer player guessing game.',
+    imageUrl: FutblImg,
+    demoUrl: 'http://www.euroguessinggame.ca',
+    codeUrl: 'https://github.com/timfmjones/EURO-2024-Player-Pursuit',
+  },
+  {
+    title: 'Futbl',
     description: 'Soccer player guessing game.',
     imageUrl: FutblImg,
     demoUrl: 'https://github.com/timfmjones/Futbl',
@@ -43,6 +58,7 @@ const projects = [
     demoUrl: '/',
     codeUrl: 'https://github.com/timfmjones/Personal-Portfolio',
   },
+  
 ];
 
 const Projects = () => {

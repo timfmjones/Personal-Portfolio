@@ -7,6 +7,7 @@ const Model = () => {
   const { scene } = useGLTF(process.env.PUBLIC_URL + '/poly-3.glb');
   scene.position.y = -8; // Lower the model by adjusting its y position
   scene.rotation.x = 5;
+  scene.rotation.y = 9.8;
 
   scene.scale.set(2, 2, 2); // Sets size of the model
 

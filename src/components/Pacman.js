@@ -35,7 +35,7 @@ const createInitialMap = () => {
     [1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1],
   ];
   // Add initial fruits
-  map[1][2] = 2;
+  map[2][1] = 2;
   map[18][17] = 2;
   return map;
 };

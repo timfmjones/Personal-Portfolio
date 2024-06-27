@@ -7,7 +7,8 @@
   }
   
   .snake-canvas {
-    border: 1px solid #601e9e;
+    border: 3px solid #601e9e;
+    box-shadow: 8px 2px 8px 2px black;
   }
   
   .game-over {
@@ -23,7 +24,3 @@
     cursor: pointer;
   }
 
-.game-board{
-    
-}
-  

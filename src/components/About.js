@@ -41,6 +41,12 @@ const About = () => {
           <div className="bg-gray-100 rounded-lg p-6 shadow-md mb-8">
             <h2 className="text-3xl font-bold text-center mt-8 mb-4 text-black">Experience</h2>
             <div className="grid gap-4">
+            <div className="border border-gray-300 p-4 rounded-lg">
+                <div className="font-semibold text-gray-700">Evertz</div>
+                <div className="text-sm text-gray-600">April 2024 – Current</div>
+                <div className="text-sm text-gray-600">Project Engineer</div>
+              </div>
+
               <div className="border border-gray-300 p-4 rounded-lg">
                 <div className="font-semibold text-gray-700">Weather Network</div>
                 <div className="text-sm text-gray-600">Sept 2022 – Dec 2022 (co-op)</div>

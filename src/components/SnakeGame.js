@@ -111,7 +111,7 @@ const SnakeGame = () => {
         <div className="snake-game">
             <canvas ref={canvasRef} width={canvasSize.width} height={canvasSize.height} className="snake-canvas"/>
             {gameOver && <div className="game-over">Game Over</div>}
-            {gameOver && <button onClick={restartGame} className="restart-button">Restart Game</button>}
+            {gameOver && <button onClick={restartGame} className="inline-block bg-gray-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Restart Game</button>}
         </div>
     </div>
     
